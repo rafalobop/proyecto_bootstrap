@@ -1,0 +1,71 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 20px 0;
+}
+
+.nav-item:hover .nav-link:hover{
+    color: #12a6de;
+}
+
+.nav-item{
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #7a8893;
+}
+.nav-item a i{
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.banner{
+    position: relative;
+    background: url(../img/bannercelu.png);
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px 80px;
+
+}
+.banner h2{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    text-shadow: 2px 2px 3px #12a6de;
+
+}
+.banner h3{
+    margin: 1rem 0 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px #1e2930;
+}
+.banner span{
+    display: flex;
+    justify-content: center;
+}
+.banner span img{
+    width: 50%;
+}
+.banner span .banner__btn{
+    background-color: #12a6de;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: none;
+    border: none;
+    padding: 3%;
+}
