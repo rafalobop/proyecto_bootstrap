@@ -132,3 +132,33 @@ header{
 .products__card .card__text .card__btn:hover{
     background-color: rgba(30, 37, 41, 0.8);
 }
+
+/* === cards === */
+
+.cards h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px #1e2930;
+    padding: 5%;
+}
+.card{
+    border-radius: 40px;
+}
+.card img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card h5, .card p{
+    text-align: center;
+}
+.card p{
+    font-size: 1.4rem;
+}
+.card p:nth-child(2){
+    text-decoration: line-through;
+}
+
+/* === Footer === */
