@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto bootstrap - rolling code</title>
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Boxicons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!--estilos css-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="./index.html"><img src="./img/favicon.png" alt=""></a>
+                <ul class="navbar-nav ml-lg-auto pl-2 mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Destacados<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Market</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class='bx bx-cart'></i></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-2">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar producto" aria-label="Buscar">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <section class="brands">
+        <h2>Productos</h2>
+        <div class="brands_cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="brand_card">
+                                    <img src="./img/samsung.png" id="samsung_btn" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand_card">
+                                    <img src="./img/motorola.png" id="motorola_btn" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand_card">
+                                    <img src="./img/apple.png" class="card-img-top" id="apple_btn" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="cards" id="samsung">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/a31.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung Galaxy A31</h5>
+                                        <p>$42000</p>
+                                        <p>$35000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/a51.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung Galaxy A51</h5>
+                                        <p>$13000</p>
+                                        <p>$8500</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/a71.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung Galaxy A71</h5>
+                                        <p>$180000</p>
+                                        <p>$120000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/zfold.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung Zfold 2</h5>
+                                        <p>$220000</p>
+                                        <p>$165000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="motorola">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/e6.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Motorola E6</h5>
+                                        <p>$42000</p>
+                                        <p>$35000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/edge.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Motorola Edge</h5>
+                                        <p>$98000</p>
+                                        <p>$68000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/g8plus.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Motorola G8 Plus</h5>
+                                        <p>$118000</p>
+                                        <p>$84000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="apple">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/iphone 8red.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Iphone 8 Red</h5>
+                                        <p>$128000</p>
+                                        <p>$98000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/iphone11max.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Iphone 11 Max</h5>
+                                        <p>$180000</p>
+                                        <p>$168000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/iphone11red.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Iphone 11 Red</h5>
+                                        <p>$148000</p>
+                                        <p>$130000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/iphone12.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Iphone 12 ProMax</h5>
+                                        <p>$208000</p>
+                                        <p>$184000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/iphonex.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Iphone X</h5>
+                                        <p>$198000</p>
+                                        <p>$168000</p>
+                                        <button class="btn characteristics">Caracteristicas</button>
+                                        <button class="btn cart"><i class='bx bx-cart'></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="go__up">
+            <i class='bx bx-up-arrow-alt'></i>
+        </div>
+        <footer class="footer">
+            <section class="row">
+                <div class="container">
+                    <div class="footer__left col-lg-12 col-md-12 col-sm-12">
+                        <h3>Contactanos</h3>
+                        <ul class="footer__list">
+                            <li><a href="www.facebook.com/smarttucuman1"><i class='bx bxl-facebook'></i></a></i>
+                            </li>
+                            <li><a href="www.instagram.com/smarttucuman1"><i class='bx bxl-instagram'></i></a></i>
+                            </li>
+                            <li><a href="wa.me/5493815421312"><i class='bx bxl-whatsapp'></i></a></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <!--bootstrap script-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+</body>
+
+</html>
