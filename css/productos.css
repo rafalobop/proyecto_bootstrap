@@ -26,10 +26,11 @@
 }
 .brands{
     margin-top: 10%;
+    padding-left: 2%;
 }
 
-.btn{
-    width: 46%;
+.btnA{
+    width: 48%;
     box-shadow: 2px 2px 5px #1e2930;
     border: none;
     border-radius: 30px;
@@ -47,7 +48,7 @@
     opacity:.4;
     transition: .3s;
 }
-.btn:hover{
+.btnA:hover{
     color: #fff;
     opacity: 1;
 }

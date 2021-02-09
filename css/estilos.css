@@ -162,7 +162,7 @@ header{
     box-shadow: 3px 3px 6px #1e2930;
 }
 .card:hover{
-    transform: scale(1,1.1);
+    transform: translateY(-1%);
 }
 .card img{
     border-top-left-radius: 30px;
