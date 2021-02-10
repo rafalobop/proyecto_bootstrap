@@ -2,6 +2,9 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     position: absolute;
     z-index: 10;
@@ -162,7 +165,7 @@ header{
     box-shadow: 3px 3px 6px #1e2930;
 }
 .card:hover{
-    transform: translateY(-1%);
+    filter: grayscale(90%);
 }
 .card img{
     border-top-left-radius: 30px;
@@ -245,4 +248,27 @@ header{
 .show{
     display: block;
     transition: .3s;
+}
+.btnA{
+    width: 48%;
+    box-shadow: 2px 2px 5px #1e2930;
+    border: none;
+    border-radius: 30px;
+}
+.characteristics{
+    background-color: #12a6de;
+    opacity: .4;
+    color: #fff;
+    font-weight: 500;
+    transition: .3s;
+}
+.cart{
+    background-color: #1e2930;
+    color: #fff;
+    opacity:.4;
+    transition: .3s;
+}
+.btnA:hover{
+    color: #fff;
+    opacity: 1;
 }
